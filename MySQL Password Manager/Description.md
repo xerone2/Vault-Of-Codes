@@ -7,6 +7,7 @@ In the digital age where online security is paramount, our Python Password Manag
 Secure Data Storage:
 
 The password manager securely stores user data in a database, ensuring that sensitive information is protected from unauthorized access.
+
 Advanced Cryptography:
 
 Utilizes strong and industry-recognized cryptographic algorithms for enhanced security:
@@ -15,6 +16,7 @@ Argon2 for secure password hashing, providing resistance against brute-force att
 Base64 encoding for safe representation of binary data.
 Fernet symmetric encryption for protecting sensitive data.
 Hazmat library for cryptographic primitives, ensuring a high level of security.
+
 Multi-Factor Authentication (MFA):
 
 Implements Multi-Factor Authentication to add an additional layer of security. Users can opt for an extra verification step, such as a one-time code sent to their mobile device, enhancing the overall protection of their accounts.
