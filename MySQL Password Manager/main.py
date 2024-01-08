@@ -2,7 +2,6 @@ import getpass
 import secrets
 import base64
 import mysql.connector
-import os
 from prettytable import PrettyTable
 from argon2 import PasswordHasher
 from passlib.hash import argon2
@@ -10,11 +9,11 @@ from cryptography.fernet import Fernet, InvalidToken
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-# mydb
-host = "localhost"
-user = "root"
-password = "3pWP37p9MhZx2!Y"
-database = "db_test02"
+# myDB
+host = "host"
+user = "user-name"
+password = "database-password"
+database = "database-name"
 
 # Initialize PasswordHasher with default parameters
 ph = PasswordHasher()
